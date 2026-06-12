@@ -1,0 +1,24 @@
+# Data Collection
+kaggle==1.6.12
+google-cloud-bigquery==3.17.2
+pandas==2.2.1
+requests==2.31.0
+
+# Transform & Load
+pyarrow==15.0.2
+db-dtypes==1.2.0
+
+# Machine Learning
+scikit-learn==1.5.2
+prophet==1.1.5
+
+# AI
+google-generativeai==0.5.4
+
+# Visualization
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Utilities
+python-dotenv==1.0.1
+jupyter==1.0.0
