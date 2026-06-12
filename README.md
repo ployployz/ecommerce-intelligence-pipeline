@@ -1,5 +1,10 @@
 # E-Commerce Intelligence Pipeline
-I built this project to practice building a full data pipeline from raw data to insights. Using real world ecommerce data.
+It pulls data from three public sources — Olist Brazilian E-Commerce dataset 
+from Kaggle, Amazon Consumer Reviews of Amazon Products from Kaggle, 
+and Google Trends from BigQuery — cleans and transforms it using Python, 
+loads it into BigQuery, runs ML models for demand forecasting and customer 
+segmentation, uses Gemini API to analyze review sentiment, and visualizes 
+the results in Looker Studio.
 
 The idea came from my experience working with customer transaction data in banking. Purchase patterns in e-commerce are surprisingly similar: frequency, value, category, churn. I wanted to see if the same analytical thinking applies, and what tools are needed to get there.
 
@@ -18,7 +23,8 @@ data/                   # raw and processed data
 requirements.txt        # dependencies
 
 ## Tools used
-Python, Pandas, Google BigQuery, Scikit-learn, Prophet, Gemini API, Looker Studio
+Python, Pandas, Kaggle API, Google BigQuery, Scikit-learn, Prophet, 
+Gemini API, Looker Studio
 
 ## How to run
 ิ#bash1
